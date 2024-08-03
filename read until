@@ -1,0 +1,25 @@
+n=int(input("enter total characters: "))
+v=[]
+for i in range(n):
+      print("enter character")
+      m=input(i+1)
+      v.append(m)
+print(v)
+q="ABCDEFHIJKLMNOPQRSTUVWXYYZ"
+s="abcdefhgijklmnopqrstuvwxyz"
+u=0
+l=0
+c=0
+for j in v:
+    if j in q:
+        u+=1
+    elif j in s:
+        l+=1
+    elif j=="*":
+        break
+    else:
+        c+=1
+print("total uppercase",u)
+print("total lowercase",l)
+print("total numbers",c)
+      

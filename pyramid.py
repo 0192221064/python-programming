@@ -1,9 +1,10 @@
-n=5
-space=n-1
-for i in range(0,n):
-    for j in range(0,space):
-        print(end = " ")
-    space=space-1
-    for k in range(0,i+1):
-        print("i" ,end = " ")
+n = 4
+a=1
+for i in range(1, n+1):
+    for j in range(n-i):
+        print(" ", end="")
+        
+    for k in range(i):
+        print(a,"", end="")
+        a+=1
     print()

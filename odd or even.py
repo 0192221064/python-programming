@@ -1,5 +1,5 @@
-n=int(input(" enter n value:" ))
-if(n%2==0):
-    print(" even" )
+n=3
+if n%2==0:
+    print("even")
 else:
-    print(" odd" )
+    print("odd")
